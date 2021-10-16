@@ -1,0 +1,20 @@
+.slider__wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: calc(474px + 30px);
+    background-color:brown;
+}
+.slider__container {
+    display: flex;
+    border-radius: 10px;
+    overflow: hidden;
+    padding-top: 10px;
+
+}
+
+.image__container {
+    display: flex;
+    width: 474px;
+    overflow: hidden;
+}
