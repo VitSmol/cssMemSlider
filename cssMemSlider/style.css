@@ -12,16 +12,22 @@ body {
     background-color:brown;
 }
 .slider__container {
+    position: relative;
     display: flex;
     border-radius: 10px;
     overflow: hidden;
     margin-top: 10px;
+    width: 474px;
+    height: 244px;
 
 }
 .image__container {
+    position: absolute;
     display: flex;
     width: 474px;
-    overflow: hidden;
+    transition: all 0.5s;
+    /* overflow: hidden; */
+    transform: translateX(0px);
 }
 .slider__elements {
     margin-top: 20px;
